@@ -37,6 +37,6 @@ public class UserHandler {
             }
             return "redirect:/index";
         }
-		return "plan/list.jsp";
+		return "plan/list";
 	}
 }

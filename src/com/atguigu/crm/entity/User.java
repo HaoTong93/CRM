@@ -1,9 +1,10 @@
 package com.atguigu.crm.entity;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collection;
 
-public class User extends IdEntity {
+public class User extends IdEntity implements Serializable{
 
 	private String name;
 	private String password;
